@@ -1,7 +1,10 @@
 [master]
-master ansible_host=172.16.16.200 ansible_user=root
+node_master ansible_host=192.168.10.85
 
 [worker]
-worker1 ansible_host=172.16.16.201 ansible_user=root
-worker2 ansible_host=172.16.16.202 ansible_user=root
-worker3 ansible_host=172.16.16.203 ansible_user=root
+node_worker1 ansible_host=192.168.10.86
+node_worker2 ansible_host=192.168.10.87
+node_worker3 ansible_host=192.168.10.88
+
+[nfs]
+node_nfs ansible_host=192.168.10.89
